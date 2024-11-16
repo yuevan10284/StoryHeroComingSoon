@@ -20,8 +20,8 @@ export function ComingSoon() {
         <div className="mb-12 relative">
           <div className="absolute inset-0 blur-2xl bg-red-500/40"></div>
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202024-11-15%20at%202.40.37%E2%80%AFPM-a1ukb5YvqQaDCw3VOD9dvy9wpXh7Sl.png"
-            alt="StoryHero Logo"
+            src="logo.png"
+            alt="Logo"
             width={300}
             height={300}
             className="mx-auto relative z-10"
