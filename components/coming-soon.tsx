@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Instagram, Twitter, Facebook } from 'lucide-react'
 import Image from 'next/image'
 
-export function ComingSoon() {
+export default function ComingSoon() {
   const [email, setEmail] = useState('')
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -15,13 +15,13 @@ export function ComingSoon() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+    <div className="min-h-screen flex flex-col items-center justify-between p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       <div className="w-full max-w-md text-center">
         <div className="mb-12 relative">
           <div className="absolute inset-0 blur-2xl bg-red-500/40"></div>
           <Image
-            src="/images/logo.png"
-            alt="Logo"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202024-11-15%20at%202.40.37%E2%80%AFPM-a1ukb5YvqQaDCw3VOD9dvy9wpXh7Sl.png"
+            alt="StoryHero Logo"
             width={300}
             height={300}
             className="mx-auto relative z-10"
@@ -63,18 +63,23 @@ export function ComingSoon() {
             </a>
           ))}
         </div>
-        
-        <div className="text-gray-400 text-sm">
-          By using this site, you agree to our{' '}
-          <a 
-            href="/terms-of-service" // Replace with your Terms of Service URL
+      </div>
+      
+      <div className="text-center text-sm text-gray-500 mt-8">
+        <p>By using this site, you agree to our</p>
+        <div className="flex justify-center space-x-4 mt-2">
+          <a
+            href="https://docs.google.com/document/d/1ppoiuTJTTLkbTWEzeSamwbZW5JkFUnORH2DKPHfTYB8/edit?tab=t.0"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-red-500 hover:text-red-400 underline"
           >
             Terms of Service
           </a>
-          {' '}and{' '}
-          <a 
-            href="/privacy-policy" // Replace with your Privacy Policy URL
+          <a
+            href="https://docs.google.com/document/d/1hbwm18-TN2zKt0WtTAG2UoYRcQX93T59o7v_mxH2k-I/edit?tab=t.0"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-red-500 hover:text-red-400 underline"
           >
             Privacy Policy
