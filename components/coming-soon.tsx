@@ -67,14 +67,14 @@ export function ComingSoon() {
         <div className="text-gray-400 text-sm">
           By using this site, you agree to our{' '}
           <a 
-            href="https://docs.google.com/document/d/1ppoiuTJTTLkbTWEzeSamwbZW5JkFUnORH2DKPHfTYB8/edit?usp=sharing"
+            href="/terms-of-service.pdf"
             className="text-red-500 hover:text-red-400 underline"
           >
             Terms of Service
           </a>
           {' '}and{' '}
           <a 
-            href="https://docs.google.com/document/d/1hbwm18-TN2zKt0WtTAG2UoYRcQX93T59o7v_mxH2k-I/edit?usp=sharing"
+            href="/privacy-policy.pdf"
             className="text-red-500 hover:text-red-400 underline"
           >
             Privacy Policy
