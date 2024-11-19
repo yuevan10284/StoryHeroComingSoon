@@ -63,7 +63,25 @@ export function ComingSoon() {
             </a>
           ))}
         </div>
+        
+        <div className="text-gray-400 text-sm">
+          By using this site, you agree to our{' '}
+          <a 
+            href="/terms-of-service" // Replace with your Terms of Service URL
+            className="text-red-500 hover:text-red-400 underline"
+          >
+            Terms of Service
+          </a>
+          {' '}and{' '}
+          <a 
+            href="/privacy-policy" // Replace with your Privacy Policy URL
+            className="text-red-500 hover:text-red-400 underline"
+          >
+            Privacy Policy
+          </a>
+        </div>
       </div>
     </div>
   )
 }
+
