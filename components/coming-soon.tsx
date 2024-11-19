@@ -21,7 +21,7 @@ export function ComingSoon() {
           <div className="absolute inset-0 blur-2xl bg-red-500/40"></div>
           <Image
             src="/images/logo.png"
-            alt="Logo"
+            alt="StoryHero Logo"
             width={300}
             height={300}
             className="mx-auto relative z-10"
@@ -67,14 +67,14 @@ export function ComingSoon() {
         <div className="text-gray-400 text-sm">
           By using this site, you agree to our{' '}
           <a 
-            href="/terms-of-service" // Replace with your Terms of Service URL
+            href="/terms-of-service"
             className="text-red-500 hover:text-red-400 underline"
           >
             Terms of Service
           </a>
           {' '}and{' '}
           <a 
-            href="/privacy-policy" // Replace with your Privacy Policy URL
+            href="/privacy-policy"
             className="text-red-500 hover:text-red-400 underline"
           >
             Privacy Policy
@@ -84,4 +84,3 @@ export function ComingSoon() {
     </div>
   )
 }
-
