@@ -69,6 +69,8 @@ export function ComingSoon() {
           <a 
             href="/terms-of-service.pdf"
             className="text-red-500 hover:text-red-400 underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Terms of Service
           </a>
@@ -76,6 +78,8 @@ export function ComingSoon() {
           <a 
             href="/privacy-policy.pdf"
             className="text-red-500 hover:text-red-400 underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Privacy Policy
           </a>
