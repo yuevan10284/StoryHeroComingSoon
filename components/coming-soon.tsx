@@ -67,7 +67,7 @@ export function ComingSoon() {
         <div className="text-gray-400 text-sm">
           By using this site, you agree to our{' '}
           <a 
-            href="/terms-of-service.pdf"
+            href="/StoryHero%20Terms%20of%20Service.pdf"
             className="text-red-500 hover:text-red-400 underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export function ComingSoon() {
           </a>
           {' '}and{' '}
           <a 
-            href="/privacy-policy.pdf"
+            href="/StoryHero%20Privacy%20Policy.pdf"
             className="text-red-500 hover:text-red-400 underline"
             target="_blank"
             rel="noopener noreferrer"
