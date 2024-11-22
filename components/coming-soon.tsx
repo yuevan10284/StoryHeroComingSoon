@@ -29,9 +29,9 @@ export function ComingSoon() {
           />
         </div>
 
-        <h2 className="text-4xl font-semibold mb-4 text-red-500">Coming Soon</h2>
+        <h2 className="text-4xl font-semibold mb-4 text-red-500">Subscribe!</h2>
 
-        <p className="text-xl mb-8 text-gray-300">Be the first to know when our new site is live!</p>
+        <p className="text-xl mb-8 text-gray-300">Subscribe and try StoryHero today!!</p>
 
         <form onSubmit={handleSubmit} className="flex mb-12">
           <input
