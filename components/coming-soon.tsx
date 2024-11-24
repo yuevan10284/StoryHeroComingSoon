@@ -1,5 +1,3 @@
-'use client'
-
 import { useState } from 'react'
 import { Instagram, Twitter, Facebook } from 'lucide-react'
 import Image from 'next/image'
@@ -9,7 +7,6 @@ export function ComingSoon() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the email to your server or email service
     console.log('Submitted email:', email)
     setEmail('')
   }
@@ -31,7 +28,7 @@ export function ComingSoon() {
 
         <h2 className="text-4xl font-semibold mb-4 text-red-500">Subscribe!</h2>
 
-        <p className="text-xl mb-8 text-gray-300">Subscribe and try StoryHero today!!</p>
+        <p className="text-xl mb-8 text-gray-300">Subscribe and try StoryHero today!</p>
 
         <form onSubmit={handleSubmit} className="flex mb-12">
           <input
@@ -63,8 +60,8 @@ export function ComingSoon() {
             </a>
           ))}
         </div>
-        
-        <div className="text-gray-400 text-sm">
+
+        <div className="text-gray-400 text-sm mb-4">
           By using this site, you agree to our{' '}
           <a 
             href="/StoryHero%20Terms%20of%20Service.pdf"
@@ -84,6 +81,10 @@ export function ComingSoon() {
             Privacy Policy
           </a>
         </div>
+
+        <footer className="text-gray-500 text-xs">
+          © {new Date().getFullYear()} StoryHero, LLC. All rights reserved.
+        </footer>
       </div>
     </div>
   )
