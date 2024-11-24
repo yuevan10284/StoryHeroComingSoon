@@ -20,7 +20,7 @@ export function ComingSoon() {
         <div className="mb-12 relative">
           <div className="absolute inset-0 blur-2xl bg-red-500/40"></div>
           <Image
-            src="/images/logo.png"
+            src="/images/Storyherologo.png"
             alt="StoryHero Logo"
             width={300}
             height={300}
